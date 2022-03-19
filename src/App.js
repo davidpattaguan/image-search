@@ -21,7 +21,7 @@ class App extends React.Component {
     return (
       <>
         <Navbar />
-        <div className="container mx-auto px-4 mt-5 mb-5">
+        <div className="container mx-auto  px-4 mt-5 mb-5">
           <Takeaways />
           <SearchBar searchPhoto={this.searchPhoto} />
 
